@@ -1,0 +1,1 @@
+import React from 'react';export default function TaskItem({task,toggleTask,deleteTask}){return(<div><span onClick={()=>toggleTask(task._id)}>{task.title}</span><button onClick={()=>deleteTask(task._id)}>Delete</button></div>)}
